@@ -4,8 +4,8 @@ namespace OpcjeMenu
 {
     public static class Opcje
     {
-        private static string path = "ListaZw.json"; //sciezka do pliku ListaZw.json / path zawiera stringa 
-        private static List<zwierze> zwierzeta = new List<zwierze>(); 
+        private static string path = "ListaZw.json"; //sciezka do pliku ListaZw.json / patch przechowuje string'a
+        private static List<zwierze> zwierzeta = new List<zwierze>(); //tworzy pustą listę, która może przechowywać obiekty typu zwierze
 
         static Opcje()
         {
